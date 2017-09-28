@@ -117,7 +117,6 @@ nav {
   padding: 5px;
   background-color: transparent;
   border: normal solid white;
-  /*border-color: white*/
   color: white;
   font-size: 30px;
   border-radius: 7px;
@@ -745,7 +744,6 @@ nav {
   padding: 5px;
   background-color: transparent;
   border: normal solid white;
-  /*border-color: white*/
   color: white;
   font-size: 30px;
   border-radius: 7px;
@@ -762,7 +760,7 @@ nav {
 
 @media (max-width: 600px) {
   nav {
-    background-color: #20304a; }
+    background-color: white; }
   .nav-bar {
     display: none;
     transition: .5s; }

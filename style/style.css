@@ -129,7 +129,7 @@ nav {
 #first {
   background: url(".././images/plant1.jpg");
   width: 100%;
-  height: 80vh;
+  height: 44vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -155,7 +155,7 @@ nav {
 
 #second {
   width: 100%;
-  height: 80vh;
+  height: 44vw;
   color: #08419f;
   font-size: 20px; }
 
@@ -190,7 +190,7 @@ nav {
 
 #third {
   width: 100%;
-  height: 80vh;
+  height: 44vw;
   background: url(".././images/plant33.jpg") fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -248,7 +248,7 @@ nav {
 
 #fourth {
   width: 100%;
-  min-height: 30vh;
+  min-height: 16vw;
   background-color: #a8bbda;
   display: inline-block;
   position: relative;
@@ -260,7 +260,7 @@ nav {
 
 #fifth {
   width: 100%;
-  height: 80vh;
+  height: 44vw;
   display: inline-block;
   margin: 0px;
   position: relative;
@@ -288,7 +288,7 @@ nav {
 
 #sixth {
   width: 100%;
-  height: 80vh;
+  height: 44vw;
   background-color: #20304a;
   display: inline-block;
   margin: 0px;
@@ -332,7 +332,7 @@ nav {
 #exp-first {
   background: url(".././images/plant1.jpg");
   width: 100%;
-  height: 40vh;
+  height: 22vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -346,7 +346,7 @@ nav {
 
 #exp-second {
   width: 100%;
-  height: 60vh;
+  height: 33vw;
   background-color: white;
   display: inline-block;
   margin: 0px;
@@ -366,7 +366,7 @@ nav {
   background-color: #a8bbda;
   background-size: 100%;
   width: 100%;
-  height: 60vh;
+  height: 33vw;
   color: #08419f;
   font-size: 20px; }
 
@@ -387,7 +387,7 @@ nav {
 
 #exp-fourth {
   width: 100%;
-  height: 100vh;
+  height: 55vw;
   background-color: #3e5e92;
   background: url(".././images/lookup_blue.png") fixed;
   background-position: center;
@@ -423,7 +423,7 @@ nav {
 
 #exp-fifth {
   width: 100%;
-  min-height: 80vh;
+  min-height: 44vw;
   background-color: #ccd7e9;
   display: inline-block;
   position: relative;
@@ -473,7 +473,7 @@ nav {
   transform: translate(-50%, -50%); }
 
 .serv-nitric {
-  height: 100vh;
+  height: 55vw;
   width: auto;
   position: fixed;
   top: 0px;
@@ -488,7 +488,7 @@ nav {
 #serv-first {
   background: url(".././images/plant1.jpg");
   width: 100%;
-  height: 40vh;
+  height: 22vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -502,7 +502,7 @@ nav {
 
 #serv-second {
   width: 100%;
-  height: 100vh;
+  height: 55vw;
   background-color: #ddd;
   display: inline-block;
   margin: 0px;
@@ -538,7 +538,7 @@ nav {
 #proj-first {
   background: url(".././images/plant1.jpg");
   width: 100%;
-  height: 40vh;
+  height: 22vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -552,7 +552,7 @@ nav {
 
 #proj-fourth {
   width: 100%;
-  height: 75vh;
+  height: 41vw;
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
@@ -575,15 +575,46 @@ nav {
   background: url(".././images/AN85-1_blue.jpg") fixed; }
 
 .proj-img {
-  height: 200px;
-  width: auto;
+  height: 240px;
+  width: 190px;
+  object-fit: cover;
   margin: 10px 0px 10px 40px;
   border: thick solid white;
   opacity: .8;
   transition: .8s; }
 
 .proj-img:hover {
-  height: 210px;
+  height: 260px;
+  width: auto;
+  opacity: 1; }
+
+.proj-img-an {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin: 10px 0px 10px 40px;
+  border: thick solid white;
+  opacity: .8;
+  transition: .8s; }
+
+.proj-img-an:hover {
+  height: 205px;
+  width: 205px;
+  opacity: 1;
+  z-index: 2; }
+
+.proj-img-rt {
+  height: 130px;
+  width: 170px;
+  object-fit: cover;
+  margin: 10px 0px 10px 40px;
+  border: thick solid white;
+  opacity: .8;
+  transition: .8s; }
+
+.proj-img-rt:hover {
+  height: 155px;
+  width: 190px;
   opacity: 1; }
 
 .proj-4-pic {
@@ -594,7 +625,7 @@ nav {
 #cont-first {
   background: url(".././images/plant1.jpg");
   width: 100%;
-  height: 40vh;
+  height: 22vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -608,7 +639,7 @@ nav {
 
 #cont-second {
   width: 100%;
-  height: 80vh;
+  height: 44vw;
   background-color: white;
   display: inline-block;
   margin: 0px;

@@ -5,10 +5,11 @@ $(window).on('scroll', function() {
 || document.documentElement.clientWidth
 || document.body.clientWidth;
 
+
+      // console.log("totHeight" , window.screen.availHeight);
+      // console.log("totWidth" ,window.screen.availWidth);
+
 ////////////////////////HOME////////////////////////////////
-  // $('.title').css({
-  //   'transform':'translateY('+ scrollPixel / 4 + '%)'
-  // });
 
   if(scrollPixel > 75){
   // $('nav').css({'background-color':'#24263d'});

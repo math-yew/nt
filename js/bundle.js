@@ -8,6 +8,7 @@ $(window).on('scroll', function() {
 
       // console.log("totHeight" , window.screen.availHeight);
       // console.log("totWidth" ,window.screen.availWidth);
+console.log(".");
 
 ////////////////////////HOME////////////////////////////////
 

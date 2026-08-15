@@ -5,6 +5,8 @@ $(window).on('scroll', function() {
 || document.documentElement.clientWidth
 || document.body.clientWidth;
 
+console.log(".");
+
 ////////////////////////HOME////////////////////////////////
   // $('.title').css({
   //   'transform':'translateY('+ scrollPixel / 4 + '%)'
